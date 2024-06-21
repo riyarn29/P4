@@ -4,3 +4,20 @@ ORS_Project4/ORS_Project4/mysql-data/binlog.index
 ORS_Project4/ORS_Project4/mysql-data/ib_buffer_pool
 
 ORS_Project4/ORS_Project4/mysql-data/mysql.sock
+
+# Ignore .tern-project files
+.tern-project
+
+# Ignore MySQL data directory
+mysql-data/
+
+# Ignore specific MySQL socket file
+mysql-data/mysql.sock
+
+# Ignore Maven status files
+target/maven-status/
+
+# Ignore generated JavaScript and CSS files
+src/main/webapp/doc/jquery/
+target/ORS_Project4/doc/jquery/
+
