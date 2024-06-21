@@ -1,0 +1,6 @@
+*.tern-project
+ORS_Project4/ORS_Project4/mysql-data/auto.cnf
+ORS_Project4/ORS_Project4/mysql-data/binlog.index
+ORS_Project4/ORS_Project4/mysql-data/ib_buffer_pool
+
+ORS_Project4/ORS_Project4/mysql-data/mysql.sock
