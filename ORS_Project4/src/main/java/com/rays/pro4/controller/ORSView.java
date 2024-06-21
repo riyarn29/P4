@@ -67,6 +67,8 @@ public interface ORSView {
 			public String DOCTOR_VIEW = PAGE_FOLDER + "/DoctorView.jsp";
 			public String UPI_LIST_VIEW = PAGE_FOLDER + "/UPIListView.jsp";
 			public String UPI_VIEW = PAGE_FOLDER + "/UPIView.jsp";
+			public String FAMILY_LIST_VIEW = PAGE_FOLDER + "/FamilyListView.jsp";
+			public String FAMILY_VIEW = PAGE_FOLDER + "/FamilyView.jsp";
 			
 		 public String ERROR_VIEW = PAGE_FOLDER + "/ErrorView.jsp";
 		 //   public String ERROR_VIEW5 = PAGE_FOLDER + "/ErrorView5.jsp";
@@ -121,6 +123,8 @@ public interface ORSView {
 			public String DOCTOR_CTL = APP_CONTEXT + "/ctl/DoctorCtl";
 			public String UPI_LIST_CTL = APP_CONTEXT + "/ctl/UPIListCtl";
 			public String UPI_CTL = APP_CONTEXT + "/ctl/UPICtl";
+			public String FAMILY_LIST_CTL = APP_CONTEXT + "/ctl/FamilyListCtl";
+			public String FAMILY_CTL = APP_CONTEXT + "/ctl/FamilyCtl";
 
 	    public String ERROR_CTL = APP_CONTEXT + "/ErrorCtl";
 	

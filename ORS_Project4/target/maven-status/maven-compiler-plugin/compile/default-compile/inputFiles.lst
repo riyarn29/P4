@@ -2,9 +2,11 @@ C:\Rays Software\workspace\Project4\ORS_Project4\src\main\java\com\rays\pro4\con
 C:\Rays Software\workspace\Project4\ORS_Project4\src\main\java\com\rays\pro4\controller\ChangePasswordCtl.java
 C:\Rays Software\workspace\Project4\ORS_Project4\src\main\java\com\rays\pro4\controller\UserRegistrationCtl.java
 C:\Rays Software\workspace\Project4\ORS_Project4\src\main\java\com\rays\pro4\Model\MarksheetModel.java
+C:\Rays Software\workspace\Project4\ORS_Project4\src\main\java\com\rays\pro4\controller\FamilyListCtl.java
 C:\Rays Software\workspace\Project4\ORS_Project4\src\main\java\com\rays\pro4\controller\VehicleListCtl.java
 C:\Rays Software\workspace\Project4\ORS_Project4\src\main\java\com\rays\pro4\Model\CourseModel.java
 C:\Rays Software\workspace\Project4\ORS_Project4\src\main\java\com\rays\pro4\Exception\RecordNotFoundException.java
+C:\Rays Software\workspace\Project4\ORS_Project4\src\main\java\com\rays\pro4\Model\FamilyModel.java
 C:\Rays Software\workspace\Project4\ORS_Project4\src\main\java\com\rays\pro4\Util\DataUtility.java
 C:\Rays Software\workspace\Project4\ORS_Project4\src\main\java\com\rays\proj4\Test\SubjectTest.java
 C:\Rays Software\workspace\Project4\ORS_Project4\src\main\java\com\rays\pro4\controller\JobRequirementListCtl.java
@@ -31,6 +33,7 @@ C:\Rays Software\workspace\Project4\ORS_Project4\src\main\java\com\rays\proj4\Te
 C:\Rays Software\workspace\Project4\ORS_Project4\src\main\java\com\rays\pro4\Bean\FacultyBean.java
 C:\Rays Software\workspace\Project4\ORS_Project4\src\main\java\com\rays\pro4\Model\UserModel.java
 C:\Rays Software\workspace\Project4\ORS_Project4\src\main\java\com\rays\pro4\controller\FacultyCtl.java
+C:\Rays Software\workspace\Project4\ORS_Project4\src\main\java\com\rays\pro4\controller\FamilyCtl.java
 C:\Rays Software\workspace\Project4\ORS_Project4\src\main\java\com\rays\pro4\Bean\OrderBean.java
 C:\Rays Software\workspace\Project4\ORS_Project4\src\main\java\com\rays\pro4\controller\UserListCtl.java
 C:\Rays Software\workspace\Project4\ORS_Project4\src\main\java\com\rays\pro4\controller\SubjectListCtl.java
@@ -115,3 +118,4 @@ C:\Rays Software\workspace\Project4\ORS_Project4\src\main\java\com\rays\pro4\con
 C:\Rays Software\workspace\Project4\ORS_Project4\src\main\java\com\rays\pro4\Util\JDBCDataSource.java
 C:\Rays Software\workspace\Project4\ORS_Project4\src\main\java\com\rays\pro4\controller\FacultyListCtl.java
 C:\Rays Software\workspace\Project4\ORS_Project4\src\main\java\com\rays\pro4\controller\RoleCtl.java
+C:\Rays Software\workspace\Project4\ORS_Project4\src\main\java\com\rays\pro4\Bean\FamilyBean.java

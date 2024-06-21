@@ -13,7 +13,7 @@
 <head>
 <link rel="icon" type="image/png"
 	href="<%=ORSView.APP_CONTEXT%>/img/logo.png" sizes="16*16" />
-<title>product List</title>
+<title>Upi List</title>
 
 <script src="<%=ORSView.APP_CONTEXT%>/js/jquery.min.js"></script>
 <script src="<%=ORSView.APP_CONTEXT%>/js/Checkbox11.js"></script>
@@ -99,10 +99,10 @@
 						
 					
 						
-					 <label>Name</font>:
+				 	 <label>Name</font>:
 					</label>	<%=HTMLUtility.getList("name",String.valueOf(bean.getName()) , plist) %>
 						
-						&nbsp;	<label> Date </font> 
+					&nbsp;	<label> Date </font> 
 					</label> <input type="text" name="dob" id="udatee"
 						placeholder="Enter Date"
 						value="<%=ServletUtility.getParameter("dob", request)%>"> &nbsp;

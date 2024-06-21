@@ -188,7 +188,7 @@ public class UPIModel {
 
 			if (bean.getAmount() != null && bean.getAmount().length() > 0) {
 				sql.append(" AND AMOUNT like '" + bean.getAmount() + "%'");
-			}
+			}                   
 
 			if (bean.getMobile() > 0) {
 				sql.append(" AND MOBILE  = '" + bean.getMobile());

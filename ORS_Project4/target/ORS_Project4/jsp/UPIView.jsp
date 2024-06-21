@@ -36,22 +36,20 @@
 </script>
 
 <script>
-function validateNumericInput(inputField) {
-    // Get the value entered by the user
-    var inputValue = inputField.value;
+	function validateNumericInput(inputField) {
+		// Get the value entered by the user
+		var inputValue = inputField.value;
 
-    // Regular expression to check if the input is numeric
-    var numericPattern = /^\d*$/;
+		// Regular expression to check if the input is numeric
+		var numericPattern = /^\d*$/;
 
-    // Test the input value against the numeric pattern
-    if (!numericPattern.test(inputValue)) {
-        // If input is not numeric, clear the field
-        inputField.value = inputValue.replace(/[^\d]/g, ''); // Remove non-numeric characters
-    }
-}
+		// Test the input value against the numeric pattern
+		if (!numericPattern.test(inputValue)) {
+			// If input is not numeric, clear the field
+			inputField.value = inputValue.replace(/[^\d]/g, ''); // Remove non-numeric characters
+		}
+	}
 </script>
-
-
 <body>
 	<jsp:useBean id="bean" class="com.rays.pro4.Bean.UPIBean"
 		scope="request"></jsp:useBean>
@@ -95,8 +93,8 @@ function validateNumericInput(inputField) {
 			<input type="hidden" name="id" value="<%=bean.getId()%>">
 
 			<table>
-			
-			<%-- <tr>
+
+				<%-- <tr>
 					<th align="left">Name<span style="color: red">*</span> :
 					</th>
 					<td>
@@ -117,14 +115,15 @@ function validateNumericInput(inputField) {
 					<th style="padding: 3px"></th>
 				</tr>
 				<tr> --%>
-				
-				
+
+
 				<th align="left">Name: <span style="color: red">*</span>
 
-					</th>
-					<td><input type="text" name="name" placeholder="Enter name" onkeypress="return ValidateInput(event)"
-						size="25" value="<%=DataUtility.getStringData(bean.getName())%>"></td>
-					<td style="position: fixed"><font color="red"><%=ServletUtility.getErrorMessage("name", request)%></font></td>
+				</th>
+				<td><input type="text" name="name" placeholder="Enter name"
+					onkeypress="return ValidateInput(event)" size="25"
+					value="<%=DataUtility.getStringData(bean.getName())%>"></td>
+				<td style="position: fixed"><font color="red"><%=ServletUtility.getErrorMessage("name", request)%></font></td>
 
 				</tr>
 
@@ -133,13 +132,14 @@ function validateNumericInput(inputField) {
 				</tr>
 
 
-				
-					<th align="left">Mobile: <span style="color: red">*</span>
 
-					</th>
-					<td><input type="text" name="mobile" placeholder="Enter mobile" maxlength="10" oninput="validateNumericInput(this)"
-						size="25" value="<%=DataUtility.getStringData(bean.getMobile())%>"></td>
-					<td style="position: fixed"><font color="red"><%=ServletUtility.getErrorMessage("mobile", request)%></font></td>
+				<th align="left">Mobile: <span style="color: red">*</span>
+
+				</th>
+				<td><input type="text" name="mobile" placeholder="Enter mobile"
+					maxlength="10" oninput="validateNumericInput(this)" size="25"
+					value="<%=DataUtility.getStringData(bean.getMobile())%>"></td>
+				<td style="position: fixed"><font color="red"><%=ServletUtility.getErrorMessage("mobile", request)%></font></td>
 
 				</tr>
 
@@ -148,10 +148,10 @@ function validateNumericInput(inputField) {
 				</tr>
 
 
-				
+
 
 				<tr>
-					<th align="left"> Date<span style="color: red">*</span> :
+					<th align="left">Date<span style="color: red">*</span> :
 					</th>
 					<td><input type="text" name="dob" placeholder="Enter Date"
 						size="25" readonly="readonly" id="udatee"
@@ -162,12 +162,13 @@ function validateNumericInput(inputField) {
 				<tr>
 					<th style="padding: 3px"></th>
 				</tr>
-				
+
 				<tr>
 					<th align="left">Amount: <span style="color: red">*</span>
 
 					</th>
-					<td><input type="text" name="amount" placeholder="Enter amount" oninput="validateNumericInput(this)"
+					<td><input type="text" name="amount"
+						placeholder="Enter amount" oninput="validateNumericInput(this)"
 						size="25" value="<%=DataUtility.getStringData(bean.getAmount())%>"></td>
 					<td style="position: fixed"><font color="red"><%=ServletUtility.getErrorMessage("amount", request)%></font></td>
 
@@ -176,31 +177,29 @@ function validateNumericInput(inputField) {
 				<tr>
 					<th style="padding: 3px"></th>
 				</tr>
-					<%
-						if (bean.getId() > 0) {
-					%>
+				<%
+					if (bean.getId() > 0) {
+				%>
 
-					&nbsp;
-					<td align="right" colspan="2">&nbsp; &emsp; <input
-						type="submit" name="operation"
-						value="<%=UPICtl.OP_UPDATE%>"> &nbsp; &nbsp;
-						<input type="submit" name="operation"
-						value="<%=UPICtl.OP_CANCEL%>"></td>
+				&nbsp;
+				<td align="right" colspan="2">&nbsp; &emsp; <input
+					type="submit" name="operation" value="<%=UPICtl.OP_UPDATE%>">
+					&nbsp; &nbsp; <input type="submit" name="operation"
+					value="<%=UPICtl.OP_CANCEL%>"></td>
 
-					<%
-						} else {
-					%>
+				<%
+					} else {
+				%>
 
-					&nbsp;&nbsp;
-					<td align="right" scolspan="2">&nbsp; &emsp; <input
-						type="submit" name="operation"
-						value="<%=UPICtl.OP_SAVE%>"> &nbsp; &nbsp; <input
-						type="submit" name="operation"
-						value="<%=UPICtl.OP_RESET%>"></td>
+				&nbsp;&nbsp;
+				<td align="right" scolspan="2">&nbsp; &emsp; <input
+					type="submit" name="operation" value="<%=UPICtl.OP_SAVE%>">
+					&nbsp; &nbsp; <input type="submit" name="operation"
+					value="<%=UPICtl.OP_RESET%>"></td>
 
-					<%
-						}
-					%>
+				<%
+					}
+				%>
 				</tr>
 			</table>
 		</form>

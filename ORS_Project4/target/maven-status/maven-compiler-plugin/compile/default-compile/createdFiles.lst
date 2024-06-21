@@ -24,6 +24,7 @@ com\rays\pro4\controller\UserListCtl.class
 com\rays\pro4\controller\ErrorCtl.class
 com\rays\pro4\controller\LessonCtl.class
 com\rays\pro4\controller\BankCtl.class
+com\rays\pro4\Model\FamilyModel.class
 com\rays\proj4\Test\DoctorTest.class
 com\rays\pro4\controller\LoginCtl.class
 com\rays\proj4\Test\JobTest.class
@@ -77,6 +78,7 @@ com\rays\pro4\controller\CollegeCtl.class
 com\rays\pro4\controller\UserRegistrationCtl.class
 com\rays\pro4\Bean\VehicleBean.class
 com\rays\pro4\controller\FacultyCtl.class
+com\rays\pro4\controller\FamilyCtl.class
 com\rays\pro4\Model\BaseModel.class
 com\rays\pro4\Util\JDBCDataSource.class
 com\rays\pro4\controller\WelcomeCtl.class
@@ -112,7 +114,9 @@ com\rays\pro4\Bean\UPIBean.class
 com\rays\pro4\controller\CourseCtl.class
 com\rays\pro4\Exception\ApplicationException.class
 com\rays\pro4\Bean\TimeTableBean.class
+com\rays\pro4\Bean\FamilyBean.class
 com\rays\pro4\Model\JobRequirementModel.class
+com\rays\pro4\controller\FamilyListCtl.class
 com\rays\pro4\Util\EmailBuilder.class
 com\rays\pro4\controller\RoleListCtl.class
 com\rays\pro4\controller\FacultyListCtl.class

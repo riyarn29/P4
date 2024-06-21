@@ -104,7 +104,9 @@
 						href="<%=ORSView.DOCTOR_LIST_CTL%>">Doctor List</a> | <a
 						href="<%=ORSView.DOCTOR_CTL%>">Add Doctor</a> |<a
 						href="<%=ORSView.UPI_LIST_CTL%>">UPI List</a> | <a
-						href="<%=ORSView.UPI_CTL%>">Add UPI</a> 
+						href="<%=ORSView.UPI_CTL%>">Add UPI</a>  |<a
+						href="<%=ORSView.FAMILY_CTL%>">Add Family</a> | <a
+						href="<%=ORSView.FAMILY_LIST_CTL%>">Family List</a> 
 						
 					<a target="blank" href="<%=ORSView.JAVA_DOC_VIEW%>">Java Doc</b></a> | <%
  	}
